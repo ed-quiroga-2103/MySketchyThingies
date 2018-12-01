@@ -25,6 +25,7 @@ public void setup(){
 
   c1 = color(0xffE5FCC2);
   c2 = color(0xff45ADA8);
+  frameRate(60);
 }
 public void draw(){
 

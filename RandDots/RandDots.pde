@@ -10,5 +10,13 @@ void draw(){
 
   brush.display();
   brush.randomize();
-  
+
+  if(mousePressed == true){
+
+    brush.display(mouseX,mouseY);
+    brush.randomize();
+
+
+  }
+
 }

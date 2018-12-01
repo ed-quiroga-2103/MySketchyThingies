@@ -9,6 +9,7 @@ void setup(){
 
   c1 = color(#E5FCC2);
   c2 = color(#45ADA8);
+  frameRate(60);
 }
 void draw(){
 
